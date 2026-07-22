@@ -2,7 +2,8 @@ cask "rilmazafone" do
   version "1.1"
   sha256 "85cb6da6cb68c1d3425f15c1a07e476031372e704a8971b237c5e2451efe548f"
 
-  url "https://github.com/kageroumado/rilmazafone/releases/download/v#{version}/Rilmazafone-#{version}.dmg"
+  url "https://github.com/kageroumado/rilmazafone/releases/download/v#{version}/Rilmazafone-#{version}.dmg",
+      verified: "github.com/kageroumado/"
   name "Rilmazafone"
   desc "Visual designer and builder for DMG disk images"
   homepage "https://kagerou.glass/rilmazafone/"

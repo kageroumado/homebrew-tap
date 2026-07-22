@@ -26,8 +26,7 @@ This tap is deliberately cheap to audit: every file in it is a plain declarative
 | `coluracetam` | Coluracetam | Markdown reader with instant rendering in-app and in Finder's Quick Look |
 | `dantrolene` | Dantrolene | Menu bar utility that prevents screen lock while on trusted Wi-Fi networks |
 | `rilmazafone` | Rilmazafone | Visual designer and builder for DMG disk images |
-| `adrafinil` | Adrafinil | Keeps the Mac awake while AI coding agents are working |
-| `carbidopa` | Carbidopa | Menu bar proxy exposing GitHub Copilot as Anthropic- and OpenAI-compatible APIs |
+| `adrafinil` | Adrafinil | Keeps the machine awake while AI coding agents are working |
 
 Landing pages and more at [kagerou.glass](https://kagerou.glass).
 

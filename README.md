@@ -5,15 +5,15 @@ Casks for my macOS apps. Everything here is free, open source, Developer-ID sign
 ## Install
 
 ```sh
+brew install --cask kageroumado/tap/phosphene
+```
+
+That's all — installing by fully qualified name automatically trusts that one cask (Homebrew 6's tap-trust system gates third-party code behind an explicit grant; the qualified name *is* the grant). To trust the whole tap once and use short names for everything in it:
+
+```sh
 brew tap kageroumado/tap
 brew trust kageroumado/tap
 brew install --cask phosphene
-```
-
-Homebrew 6 requires you to explicitly trust third-party taps before it will run their code — that's the `brew trust` step, needed once for the whole tap. If you'd rather not trust the tap wholesale, you can trust a single cask instead:
-
-```sh
-brew trust --cask kageroumado/tap/phosphene
 ```
 
 This tap is deliberately cheap to audit: every file in it is a plain declarative cask — version, checksum, download URL, app bundle. No custom Ruby, no scripts, no external commands.

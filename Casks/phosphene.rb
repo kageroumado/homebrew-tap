@@ -14,7 +14,6 @@ cask "phosphene" do
   end
 
   depends_on macos: :tahoe
-  depends_on arch: :arm64
 
   app "Phosphene.app"
 end

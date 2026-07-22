@@ -4,7 +4,7 @@ cask "phosphene" do
 
   url "https://github.com/kageroumado/phosphene/releases/download/v#{version}/Phosphene-#{version}.dmg"
   name "Phosphene"
-  desc "Use any video as your macOS desktop and lock screen wallpaper"
+  desc "Use any video as your desktop and lock screen wallpaper"
   homepage "https://kagerou.glass/phosphene/"
 
   livecheck do

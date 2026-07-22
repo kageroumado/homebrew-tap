@@ -4,13 +4,16 @@ cask "adrafinil" do
 
   url "https://github.com/kageroumado/adrafinil/releases/download/v#{version}/Adrafinil-#{version}.dmg"
   name "Adrafinil"
-  desc "Utility that keeps the Mac awake while AI coding agents are working"
+  desc "Utility that keeps the machine awake while AI coding agents are working"
   homepage "https://kagerou.glass/adrafinil/"
 
   livecheck do
     url :url
     strategy :github_latest
   end
+
+  depends_on macos: :tahoe
+  depends_on arch: :arm64
 
   app "Adrafinil.app"
 end

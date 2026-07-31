@@ -1,6 +1,6 @@
 cask "coluracetam" do
-  version "1.1.1"
-  sha256 "f2cc8e15c7e004950b6f960a584c852c8c134daa047267dce3f3b09bad7abefe"
+  version "1.1.2"
+  sha256 "2eeaa637ecfc5e6ba807bee76a6b2c507e19947218cbcdc46af9a4d887899813"
 
   url "https://github.com/kageroumado/coluracetam/releases/download/v#{version}/Coluracetam-#{version}.dmg"
   name "Coluracetam"

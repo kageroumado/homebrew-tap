@@ -1,6 +1,6 @@
 cask "rilmazafone" do
-  version "1.1"
-  sha256 "85cb6da6cb68c1d3425f15c1a07e476031372e704a8971b237c5e2451efe548f"
+  version "1.2"
+  sha256 "93fea7a312f17b624e9795c93060246e08d668356dbee607b561956541a47b62"
 
   url "https://github.com/kageroumado/rilmazafone/releases/download/v#{version}/Rilmazafone-#{version}.dmg",
       verified: "github.com/kageroumado/"

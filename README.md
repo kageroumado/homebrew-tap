@@ -25,6 +25,7 @@ This tap is deliberately cheap to audit: every file in it is a plain declarative
 | `coluracetam` | Coluracetam | Markdown reader with instant rendering in-app and in Finder's Quick Look |
 | `dantrolene` | Dantrolene | Menu bar utility that prevents screen lock while on trusted Wi-Fi networks |
 | `rilmazafone` | Rilmazafone | Visual designer and builder for DMG disk images |
+| `rocuronium` | Rocuronium | Menu bar daemon and CLI that let an AI agent drive the Mac without taking the cursor, with evidence for every action |
 
 ### Graduated to the official homebrew/cask
 

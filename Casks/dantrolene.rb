@@ -1,6 +1,6 @@
 cask "dantrolene" do
-  version "1.2"
-  sha256 "899ff66a7ca33cfd06fb77481e25b06dcee6ee491187cb1fbd5d5ff001717c54"
+  version "1.3"
+  sha256 "99c92bf09c6fbaca0051d5db47a68e791d0186970363463b1369d85077d646b3"
 
   url "https://github.com/kageroumado/dantrolene/releases/download/v#{version}/Dantrolene-#{version}.dmg",
       verified: "github.com/kageroumado/"

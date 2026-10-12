@@ -1,6 +1,6 @@
 cask "rocuronium" do
-  version "1.5.0"
-  sha256 "0474802cbaa43274a5124203b802ed0d701be6d1dbdd250f2904105c50867691"
+  version "1.6.0"
+  sha256 "2a126a3764d3af31204149ab8136da658ab871350eb9f30f1c93202e0a263195"
 
   url "https://github.com/kageroumado/rocuronium/releases/download/v#{version}/Rocuronium-#{version}.dmg"
   name "Rocuronium"

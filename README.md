@@ -1,38 +1,31 @@
 # kageroumado's Homebrew tap
 
-Casks for my macOS apps. Everything here is free, open source, Developer-ID signed, and notarized — each cask points at the DMG published on the corresponding GitHub release.
-
-## Install
+Homebrew casks for kageroumado’s Mac apps, including Rilmazafone, Rocuronium, Coluracetam, and Dantrolene.
 
 ```sh
 brew install --cask kageroumado/tap/rilmazafone
 ```
 
-That's all — installing by fully qualified name automatically trusts that one cask (Homebrew 6's tap-trust system gates third-party code behind an explicit grant; the qualified name *is* the grant). To trust the whole tap once and use short names for everything in it:
+## Highlights
 
-```sh
-brew tap kageroumado/tap
-brew trust kageroumado/tap
-brew install --cask rilmazafone
-```
+- Install Rilmazafone, Rocuronium, Coluracetam, and Dantrolene through Homebrew.
+- Use qualified cask names or tap once for short names.
 
-This tap is deliberately cheap to audit: every file in it is a plain declarative cask — version, checksum, download URL, app bundle. No custom Ruby, no scripts, no external commands.
-
-## Apps
+<details>
+<summary>Full feature list</summary>
 
 | Cask | App | What it does |
 |---|---|---|
 | `coluracetam` | Coluracetam | Markdown reader with instant rendering in-app and in Finder's Quick Look |
 | `dantrolene` | Dantrolene | Menu bar utility that prevents screen lock while on trusted Wi-Fi networks |
-| `rilmazafone` | Rilmazafone | Visual designer and builder for DMG disk images |
-| `rocuronium` | Rocuronium | Menu bar daemon and CLI that let an AI agent drive the Mac without taking the cursor, with evidence for every action |
-
-### Graduated to the official homebrew/cask
-
-[`adrafinil`](https://formulae.brew.sh/cask/adrafinil) and [`phosphene`](https://formulae.brew.sh/cask/phosphene) now live in the official [homebrew/cask](https://github.com/Homebrew/homebrew-cask) repository — install them with plain `brew install --cask adrafinil` / `brew install --cask phosphene`, no tap needed. Anything previously installed from this tap migrates there automatically on the next `brew upgrade` (via `tap_migrations.json`).
+| `rilmazafone` | Rilmazafone | Visual DMG design and release publishing in one document |
+| `rocuronium` | Rocuronium | Separate desktop for an AI agent, local UI models and verified interactions |
 
 Landing pages and more at [kagerou.glass](https://kagerou.glass).
 
-## License
+</details>
 
-The casks in this repository are MIT. Each app carries its own license (also MIT).
+## Notes
+
+- For short names: `brew tap kageroumado/tap`, then `brew trust kageroumado/tap`.
+- [App pages](https://kagerou.glass).

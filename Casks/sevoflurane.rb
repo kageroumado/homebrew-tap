@@ -2,8 +2,7 @@ cask "sevoflurane" do
   version "1.15.2"
   sha256 "43fdde3b02ccee2268831449255a0374c59b9cbd624e846b7ba2b5d4a350e333"
 
-  url "https://github.com/kageroumado/sevoflurane/releases/download/v#{version}/Sevoflurane-#{version}.dmg",
-      verified: "github.com/kageroumado/"
+  url "https://github.com/kageroumado/sevoflurane/releases/download/v#{version}/Sevoflurane-#{version}.dmg"
   name "Sevoflurane"
   desc "Runs the Windows Steam client and its games in native windows"
   homepage "https://kagerou.glass/sevoflurane/"

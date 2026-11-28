@@ -18,6 +18,7 @@ brew install --cask kageroumado/tap/rilmazafone
 |---|---|---|
 | `coluracetam` | Coluracetam | Markdown reader with instant rendering in-app and in Finder's Quick Look |
 | `dantrolene` | Dantrolene | Menu bar utility that prevents screen lock while on trusted Wi-Fi networks |
+| `fluorescein` | Fluorescein | Menu bar monitor that names why the Mac is slow and offers the fix |
 | `rilmazafone` | Rilmazafone | Visual DMG design and release publishing in one document |
 | `rocuronium` | Rocuronium | Separate desktop for an AI agent, local UI models and verified interactions |
 | `sevoflurane` | Sevoflurane | Windows Steam and its games in native Mac windows |

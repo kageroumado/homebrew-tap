@@ -1,6 +1,6 @@
 cask "fluorescein" do
-  version "1.0.0"
-  sha256 "8260301338a878f5385a231c9fb8b839c388e7fe4232ddb11bd505106d166b67"
+  version "1.1.0"
+  sha256 "801f88d16087fd7f493dd3b65d95664df0920a5b535cf87ee1f99495c74cf1a7"
 
   url "https://github.com/kageroumado/fluorescein/releases/download/v#{version}/Fluorescein-#{version}.dmg"
   name "Fluorescein"
